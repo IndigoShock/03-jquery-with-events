@@ -87,11 +87,8 @@ articleView.setTeasers = function() {
 
   $('article').on('click','a.read-on', function(event) {
     event.preventDefault();
-
     $(this).hide();
-    //NOTE: GOT STUCK ON THIS FEATURE.
-    // console.log($(this).siblings('section'));
-    $('.article-body *:nth-of-type(n+2)').fadeIn();
+    $(this).siblings('.article-body').children('p:nth-of-type(n+2)').fadeIn();
   });
 };
 
