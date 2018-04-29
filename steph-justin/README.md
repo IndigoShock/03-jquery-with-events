@@ -14,7 +14,7 @@ The language to use is mainly Javascript. But this application also utilizes htm
 
 ## Change Log
 
-04-28-2018 9:43pm - Application works as it should. Added in README.md. 
+04-28-2018 9:43pm - Application works as it should. Added in README.md.
 
 ## Credits and Collaborations
 Credit goes to the TA's in Code Fellows 301 course: Noah Gribbin, Melanie Downing and Nicholas Carignan. And the instructors: Sam Hamm and John Cokos.

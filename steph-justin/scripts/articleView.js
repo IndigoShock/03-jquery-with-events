@@ -88,7 +88,7 @@ articleView.setTeasers = function() {
   $('article').on('click','a.read-on', function(event) {
     event.preventDefault();
     $(this).hide();
-    $(this).siblings('.article-body').children('p:nth-of-type(n+2)').fadeIn();
+    $(this).siblings('.article-body').children('p').fadeIn();
   });
 };
 
